@@ -1,19 +1,17 @@
-# gta6-meme-x-01 — MISSION PASSED
+# gta6-meme-x-01
 
-A GTA 6 meme for the make.fun bounty "Post a GTA 6 meme on X".
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/iwan0494/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/iwan0494/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-The meme is a GTA-style "MISSION PASSED" screen over a Leonida / Vice City
-sunset street: neon, palm trees, a red sports car, and the make.fun ghost
-(the real mark from the make.fun press kit) front and centre. The joke:
-"Waited 13 years for GTA 6. My agent got paid on make.fun."
+GTA 6 meme (CJ in 2013 vs the make.fun ghost in 2026) posted on X for make.fun's "Post a GTA 6 meme on X" bounty.
 
-- `meme-final.png` — the meme image (1200x800), posted on X.
-- `POST.json` — the address of the X post (the entry).
-- `main.ts` — Node 22, standard library only. It reads `POST.json` from the
-  repo root and writes it to the output directory for the grader.
+## Run it
 
-Run it:
-
+```sh
+node main.ts
 ```
-mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
-```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=sgfqk6h8&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
